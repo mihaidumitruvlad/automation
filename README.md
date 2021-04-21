@@ -22,7 +22,7 @@ Sample screenshots with graph charts are available in the project
 ## Configuration
 
 **Train Tesseract your own LCD font:**
- - You may use jTessBoxEditor: https://sourceforge.net/projects/vietocr/files/jTessBoxEditor/jTessBoxEditor-2.2.1.zip/download;
+ - You may use jTessBoxEditor: https://sourceforge.net/projects/vietocr/files/jTessBoxEditor/jTessBoxEditor-2.2.1.zip/download;\
 **Or**
  - copy my lcd_numbers.traineddata in /usr/share/tesseract/4.0/tessdata if is similar to my LCD font.
 
