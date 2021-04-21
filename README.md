@@ -6,34 +6,34 @@ Sample screenshots with graph charts are available in the project
 ## Prerequisites
 
 **Apps / Packages**
-tesseract - OCR
-python3 - programming language - scripts
-fswebcam - capture image of LCD
-apache2 - Web, to display data
+ - tesseract - OCR
+ - python3 - programming language - scripts
+ - fswebcam - capture image of LCD
+ - apache2 - Web, to display data
 
 **Python libs**
-pip
-pipenv (maybe create an environment for this specific project)
-pytesseract - OCR
-Adafruit_DHT - Sensor DHT22 data retrieval
-numpy - image processing
-opencv - image processing
+ - pip
+ - pipenv (maybe create an environment for this specific project)
+ - pytesseract - OCR
+ - Adafruit_DHT - Sensor DHT22 data retrieval
+ - numpy - image processing
+ - opencv - image processing
 
 ## Configuration
 
-Train Tesseract your own LCD font:
-You may use jTessBoxEditor: https://sourceforge.net/projects/vietocr/files/jTessBoxEditor/jTessBoxEditor-2.2.1.zip/download;
+**Train Tesseract your own LCD font:**
+ - You may use jTessBoxEditor: https://sourceforge.net/projects/vietocr/files/jTessBoxEditor/jTessBoxEditor-2.2.1.zip/download;
 **Or**
-copy my lcd_numbers.traineddata in /usr/share/tesseract/4.0/tessdata if is similar to my LCD font.
+ - copy my lcd_numbers.traineddata in /usr/share/tesseract/4.0/tessdata if is similar to my LCD font.
 
 **Mailbox account**
-mail: [e-mail@gmail.com]
-pass: [something]
-Switch less secure apps **ON**: https://myaccount.google.com/u/4/lesssecureapps?pageId=none&pli=1
+ - mail: [e-mail@gmail.com]
+ - pass: [something]
+ - Switch less secure apps **ON**: https://myaccount.google.com/u/4/lesssecureapps?pageId=none&pli=1
 
 **For google sheets API access**
-Api Key JSON for Google Drive access with **Project Writer Role**:
-Google cloud console -> Create new project -> Activate api -> Google drive -> Create service account -> Web app -> Role project writer
+ - Api Key JSON for Google Drive access with **Project Writer Role**:
+ - Google cloud console -> Create new project -> Activate api -> Google drive -> Create service account -> Web app -> Role project writer
 
 **Additional configuration**
 To ensure accuracy for reading of the LCD (in my case the display loops through different value sets), I added some extra value-safe checks:
