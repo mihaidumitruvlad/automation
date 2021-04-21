@@ -1,0 +1,5 @@
+# m h  dom mon dow   command
+
+*/17 * * * * /Stuff/Scripts/launcher.sh internal
+*/17 * * * * /Stuff/Scripts/launcher.sh sensor
+*/30 * * * * /Stuff/Scripts/launcher.sh power

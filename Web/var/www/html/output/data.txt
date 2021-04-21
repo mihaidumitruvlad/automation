@@ -1,0 +1,8 @@
+21-Apr-2021 11:00 - Process starting (attempt 1)
+21-Apr-2021 11:00 - Starting image processor
+21-Apr-2021 11:00 - Value retrieved: '888688'. Total character length '6'. Last power value '3612'. Absolute difference: '885076'. Accepted margin is '9'; margin when unreadable is '30'.
+21-Apr-2021 11:00 - Wrong value, waiting 8 seconds to switch back to current consumption
+21-Apr-2021 11:00 - Process starting (attempt 2)
+21-Apr-2021 11:00 - Starting image processor
+21-Apr-2021 11:00 - Value retrieved: '3612'. Total character length '4'. Last power value '3612'. Absolute difference: '0'. Accepted margin is '9'; margin when unreadable is '30'.
+21-Apr-2021 11:00 - Could not read display or last value pushed to google sheets is still the same. No further action is performed.
