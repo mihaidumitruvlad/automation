@@ -1,6 +1,7 @@
-Description
+## Description
 This project aims to automate the process of reading LCD digits and dump information about time & value into google sheets.
 Threshold with e-mail notification when reached can be configured.
+Sample screenshots with graph charts are available in the project
 
 ## Prerequisites
 
