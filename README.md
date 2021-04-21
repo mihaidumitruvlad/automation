@@ -7,20 +7,20 @@ Or copy my lcd_numbers.traineddata in /usr/share/tesseract/4.0/tessdata\
 \
 **Prerequisites**\
 \
-**Apps / Packages**
+**Apps / Packages**\
 * tesseract - OCR
 * python3 - programming language - scripts
 * fswebcam - capture image of LCD
 * apache2 - Web, to display data
-\
-**Python libs**\
-	-> pip\
-	-> pipenv (maybe create an environment for this specific project)\
-	-> pytesseract - OCR\
-	-> Adafruit_DHT - Sensor DHT22 data retrieval\
-	-> numpy - image processing\
-	-> opencv - image processing\
-\
+
+**Python libs**
+* pip
+* pipenv (maybe create an environment for this specific project)
+* pytesseract - OCR
+* Adafruit_DHT - Sensor DHT22 data retrieval
+* numpy - image processing
+* opencv - image processing
+
 **Mailbox account**\
 	-> mail: <uniqueID>@gmail.com\
 	-> pass: <something>\
