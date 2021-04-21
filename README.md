@@ -8,8 +8,8 @@ Or copy my lcd_numbers.traineddata in /usr/share/tesseract/4.0/tessdata\
 **Prerequisites**\
 \
 **Apps / Packages**\
-	-> tesseract - OCR\
-	-> python3 - programming language - scripts\
+* tesseract - OCR\
+* python3 - programming language - scripts\
 	-> fswebcam - capture image of LCD\
 	-> apache2 - Web - display data\
 \
