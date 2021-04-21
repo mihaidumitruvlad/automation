@@ -53,13 +53,14 @@ To ensure accuracy for reading of the LCD (in my case the display loops through 
  - sendmail.py -> port, smtpserver, sender_email, password.
 
 **Web**
- - To expose data to a simple local web server copy web archive content in / (it will be /var/www/html);
+ - To expose data to a simple local web server copy the 'Web' folder content in / (it will be /var/www/html);
  - The scripts will export several JSON files containing data to /var/www/html/output;
- - The index.html page will use a few JS to display the data.
+ - The index.html page uses a few javascript lines to display the data.
 
 ## Run
 
 **Configure launcher.sh in CRON (crontab -e)**
+
 Launcher supports a command line argument which is the set of scripts you want to trigger, to make it easier to handle the calling of the scripts.
  - 'internal' -> will run the scripts/rpi_internal.py which will create the JSON containing the last CPU temp value;
  - 'sensor' -> will run the scripts/sensor.sh which will trigger DHT_read.py with a few parameters where to export the JSON with sensor data;
