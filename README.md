@@ -12,17 +12,17 @@ Or copy my lcd_numbers.traineddata in /usr/share/tesseract/4.0/tessdata
 	-> python3 - programming language - scripts
 	-> fswebcam - capture image of LCD
 	-> apache2 - Web - display data
-
+	
 **Python libs**
- -> pip
- -> pipenv (maybe create an environment for this specific project)
- -> pytesseract - OCR
- -> Adafruit_DHT - Sensor DHT22 data retrieval
- -> numpy - image processing
- -> opencv - image processing
+	-> pip
+	-> pipenv (maybe create an environment for this specific project)
+	-> pytesseract - OCR
+	-> Adafruit_DHT - Sensor DHT22 data retrieval
+	-> numpy - image processing
+	-> opencv - image processing
 
 **Mailbox account**
-	-> mail:  <uniqueID>@gmail.com
+	-> mail: <uniqueID>@gmail.com
 	-> pass: <something>
 	-> Switch less secure apps ON: https://myaccount.google.com/u/4/lesssecureapps?pageId=none&pli=1
 
@@ -42,7 +42,6 @@ Or copy my lcd_numbers.traineddata in /usr/share/tesseract/4.0/tessdata
 	**-> E-mail alerts**
 		-> power.sh => email (e-mail recipients CSV), thresh (limit value to send alerts when reached)
 		-> sendmail.py => port, smtpserver, sender_email, password
-
 	**-> Web:**
 		-> To expose data to a simple local web server copy web archive content in / (it will be /var/www/html)
 		-> The scripts will export several JSON files containing data to /var/www/html/output.
@@ -50,9 +49,10 @@ Or copy my lcd_numbers.traineddata in /usr/share/tesseract/4.0/tessdata
 
 **Configure launcher.sh in CRON (crontab -e)**
 Launcher supports a command line argument which is the set of scripts you want to trigger, to make it easier to handle the calling of the scripts.
-  - 'internal' -> will run the scripts/rpi_internal.py which will create the JSON containing the last CPU temp value
-  - 'sensor' -> will run the scripts/sensor.sh which will trigger DHT_read.py with a few parameters where to export the JSON with sensor data
-  - 'power' -> will run several scripts - capture, process, check values against threshold and google sheets last value, send e-mail if threshold was reached
+	-> 'internal' => will run the scripts/rpi_internal.py which will create the JSON containing the last CPU temp value
+	-> 'sensor' => will run the scripts/sensor.sh which will trigger DHT_read.py with a few parameters where to export the JSON with sensor data
+	-> 'power' => will run several scripts - capture, process, check values against threshold and google sheets last value, send e-mail if threshold was reached
+	
 	**-> Sample values:**
 		*/17 * * * * /Stuff/Scripts/launcher.sh internal
 		*/17 * * * * /Stuff/Scripts/launcher.sh sensor
